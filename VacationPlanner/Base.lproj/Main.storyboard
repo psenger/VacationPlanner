@@ -753,10 +753,10 @@
             </objects>
             <point key="canvasLocation" x="720" y="848"/>
         </scene>
-        <!--View Controller-->
+        <!--Details-->
         <scene sceneID="F5r-7D-zmC">
             <objects>
-                <viewController id="o1Z-BY-mY0" sceneMemberID="viewController">
+                <viewController title="Details" id="o1Z-BY-mY0" customClass="TripDetailsViewController" customModule="VacationPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="BaX-k3-d7U">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -766,10 +766,10 @@
             </objects>
             <point key="canvasLocation" x="1390" y="662"/>
         </scene>
-        <!--View Controller-->
+        <!--Notes-->
         <scene sceneID="s39-rG-4FR">
             <objects>
-                <viewController id="gB1-Lv-572" sceneMemberID="viewController">
+                <viewController title="Notes" id="gB1-Lv-572" customClass="TripNotesViewController" customModule="VacationPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="jWI-iN-QVk">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -784,13 +784,13 @@
             <objects>
                 <viewController id="mAA-hd-xNX" customClass="TripListViewController" customModule="VacationPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="DAz-qg-V7a">
-                        <rect key="frame" x="0.0" y="0.0" width="270" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                 </viewController>
                 <customObject id="cno-55-8Vx" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="630" y="450"/>
+            <point key="canvasLocation" x="720" y="450"/>
         </scene>
     </scenes>
 </document>
