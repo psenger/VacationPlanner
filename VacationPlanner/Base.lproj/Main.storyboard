@@ -779,10 +779,10 @@
             </objects>
             <point key="canvasLocation" x="1390" y="1034"/>
         </scene>
-        <!--View Controller-->
+        <!--Trip List View Controller-->
         <scene sceneID="L7h-If-MUQ">
             <objects>
-                <viewController id="mAA-hd-xNX" sceneMemberID="viewController">
+                <viewController id="mAA-hd-xNX" customClass="TripListViewController" customModule="VacationPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="DAz-qg-V7a">
                         <rect key="frame" x="0.0" y="0.0" width="270" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
