@@ -808,12 +808,15 @@
                                                 <rect key="frame" x="81" y="0.0" width="97" height="28"/>
                                                 <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="kf9-e4-9En">
                                                     <font key="font" metaFont="system"/>
-                                                    <date key="date" timeIntervalSinceReferenceDate="676961700.83733404">
-                                                        <!--2022-06-15 04:55:00 +0000-->
+                                                    <date key="date" timeIntervalSinceReferenceDate="676964539.43314803">
+                                                        <!--2022-06-15 05:42:19 +0000-->
                                                     </date>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 </datePickerCell>
+                                                <connections>
+                                                    <action selector="dateChanged:" target="o1Z-BY-mY0" id="3dD-jm-fNB"/>
+                                                </connections>
                                             </datePicker>
                                         </subviews>
                                         <visibilityPriorities>
@@ -840,12 +843,15 @@
                                                 <rect key="frame" x="81" y="0.0" width="97" height="28"/>
                                                 <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="zR3-p2-ghe">
                                                     <font key="font" metaFont="system"/>
-                                                    <date key="date" timeIntervalSinceReferenceDate="676961709.18094397">
-                                                        <!--2022-06-15 04:55:09 +0000-->
+                                                    <date key="date" timeIntervalSinceReferenceDate="676964539.438905">
+                                                        <!--2022-06-15 05:42:19 +0000-->
                                                     </date>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 </datePickerCell>
+                                                <connections>
+                                                    <action selector="dateChanged:" target="o1Z-BY-mY0" id="6Px-FM-rm6"/>
+                                                </connections>
                                             </datePicker>
                                         </subviews>
                                         <visibilityPriorities>
@@ -992,6 +998,11 @@
                             <constraint firstAttribute="trailing" secondItem="cjd-bs-bds" secondAttribute="trailing" constant="10" id="zAO-7O-w3n"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="endDatePicker" destination="gt9-Cq-Tb6" id="Wgs-CG-qke"/>
+                        <outlet property="startDatePicker" destination="bcN-T6-qW0" id="ii6-CG-t0R"/>
+                        <outlet property="totlaTimeLabel" destination="UFy-8I-imo" id="Vbe-Nz-SU2"/>
+                    </connections>
                 </viewController>
                 <customObject id="qPZ-Bv-kir" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
